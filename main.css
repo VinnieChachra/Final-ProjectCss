@@ -375,14 +375,18 @@ section h3 {
 .achievements-list li {
     font-size: 1.2rem;
     margin-bottom: 1rem;
+    position: relative;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
 }
 
 .achievements-list li::before {
-    content: "\2022";
-    color: #f39c12; 
-    font-size: 1.5rem;
+    content: "✓"; /* Checkmark symbol */
     margin-right: 0.5rem;
+    font-size: 1.2rem;
 }
+
 
 .skills-section h3,
 .achievements-section h3 {
@@ -479,8 +483,7 @@ form button:hover {
 }
 
 .social-menu ul li a:hover {
-    color: #f39c12; /* Change to your desired hover color */
-}
+    color: #f39c12; }
 
 /* Font Awesome Icons */
 .social-menu ul li a i {
