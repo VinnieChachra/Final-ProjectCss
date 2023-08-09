@@ -382,7 +382,7 @@ section h3 {
 }
 
 .achievements-list li::before {
-    content: "✓"; /* Checkmark symbol */
+    content: "✓"; 
     margin-right: 0.5rem;
     font-size: 1.2rem;
 }
