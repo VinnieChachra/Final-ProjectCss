@@ -135,7 +135,6 @@ section#about {
 }
 
 .about-text {
-    /* flex: 1; */
     padding: 0 1rem;
     text-align: left;
 }
@@ -485,7 +484,6 @@ form button:hover {
 .social-menu ul li a:hover {
     color: #f39c12; }
 
-/* Font Awesome Icons */
 .social-menu ul li a i {
     width: 2rem;
     height: 2rem;
